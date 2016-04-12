@@ -12,7 +12,7 @@ int main() {
 	int no_Participantes, no_Questoes;
 	cout << "Qual o numero de participantes? ";
 	cin >> no_Participantes;
-	cout << "Qual o numero de quetoes? ";
+	cout << "Qual o numero de questoes? ";
 	cin >> no_Questoes;
 	int *n_Questoes = new int[no_Questoes];
 	info_Aluno * pj = new info_Aluno[no_Participantes];
